@@ -1,0 +1,17 @@
+/* You can add global styles to this file, and also import other style files */
+body{
+    width: fit-content;
+    height: fit-content;
+    animation: mymove 15s infinite linear;
+  }
+  
+  @keyframes mymove {
+    0%{background-color: rgb(255, 0, 0);}
+    5%{background-color: rgb(255, 72, 0);}
+    20%{background-color: rgb(255, 238, 0);}
+    35%{background-color: rgb(51, 255, 0);}
+    50%{background-color: rgb(0, 247, 255);}
+    65%{background-color: rgb(0, 38, 255);}
+    80%{background-color: rgb(174, 0, 255);}
+    100%{background-color: rgb(255, 0, 0);}
+  }
